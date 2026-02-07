@@ -1,0 +1,35 @@
+# copied from Gemini https://gemini.google.com/share/572eb88f18fa
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+# Restore-generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+project.assets.json
+*.ipynb
+
+# User-specific files
+.env
+.env.test
+.env.local
+
+# Unit test results
+TestResults/

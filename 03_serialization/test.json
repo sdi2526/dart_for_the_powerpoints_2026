@@ -1,0 +1,19 @@
+[
+  {
+    "id": "gs123",
+    "name": "GS retired",
+    "hoursPerWeek": 10.0,
+    "salary": 0.0,
+    "languages": [
+      "C#",
+      "Dart"
+    ]
+  },
+  {
+    "id": "x",
+    "name": "unknown",
+    "hoursPerWeek": 40.0,
+    "salary": 1234.0,
+    "languages": []
+  }
+]

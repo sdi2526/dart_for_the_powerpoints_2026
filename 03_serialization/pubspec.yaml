@@ -1,0 +1,5 @@
+name: test
+environment:
+  sdk: '^3.9.0'
+dependencies:
+  http: ^1.6.0
