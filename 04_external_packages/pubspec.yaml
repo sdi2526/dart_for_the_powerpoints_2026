@@ -3,4 +3,4 @@ name: external_packages
 environment:
   sdk: ^3.9.2
 dependencies:
-  timezone: 0.9.0
+  timezone: ^0.10.0
