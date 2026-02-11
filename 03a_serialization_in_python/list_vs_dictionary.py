@@ -35,9 +35,13 @@ def fillAndSearchDictionary(employeeCount, loopCount):
             print(f"i is {i}")
 
         id = str(random.randint(0, employeeCount - 1))
-        employee = employees[id]
-        if (employee.id != id):
+        #id = "xyz123";
+        #employee = employees[id]
+        employee = employees.get(id)
+        if (employee is None):
             print(f"not matching id {id}")
+        elif (employee.id != id) :
+            print("not matching id")
 
 
 fillAndSearchDictionary(100000, 10000)
