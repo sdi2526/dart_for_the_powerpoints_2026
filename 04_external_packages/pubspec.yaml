@@ -4,3 +4,4 @@ environment:
   sdk: ^3.9.2
 dependencies:
   timezone: ^0.10.0
+  intl: ^0.20.2
